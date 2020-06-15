@@ -1,0 +1,211 @@
+
+/* Base */
+p {
+font-size: 18px;
+font-family: Arial;
+text-align: center;
+margin-left: 60px;
+margin-right: 60px;
+}
+
+.introduction {
+
+margin-left: 65px;
+margin-right: 65px;
+text-align: center;
+}
+/* Layout */
+header {
+background-color: #F6F7F7;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.name {
+text-align: center;
+margin: 10px 0px 30px 50px;
+}
+
+.picture-of-me {
+margin-left: 100px;
+width: 300px;
+}
+
+.portfolio,
+.portfolio-2{
+text-align: center;
+margin-top: 30px;
+margin-bottom: 50px;
+}
+
+.Portfolio-images,
+.Portfolio-images-2 {
+width: 300px;
+margin-top: 20px;
+}
+
+h3 {
+margin: 35px;
+}
+/* Footer */
+.contacts {
+background-color: #F6F7F7;
+margin-left: 15px;
+width: 100px 10px 100px 10px;
+}
+
+.contact-title {
+text-align: center;
+padding-top: 60px;
+}
+
+
+/* Navigation */
+.main-nav {
+margin-top: 10px;
+list-style-type: none;
+text-align: center;
+}
+
+.main-nav li{
+margin: 10px;
+background-color: #fff;
+}
+
+.main-nav a {
+text-align: center;
+padding: 15px 15px;
+display: block;
+list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+color: black;
+}
+
+.top {
+display: inline-block;
+font-size: 13px;
+padding: 5px;
+margin-right: 70px;
+}
+
+.name-footer {
+display:inline;
+font-size: 15px;
+}
+
+
+
+/* Media Queries */
+@media (min-width: 768px) {
+
+.main-nav {
+float: right;
+margin-right: 140px;
+}
+
+.main-nav li {
+display: inline-block;
+margin-left: 15px;
+}
+
+ .main-nav a {
+text-decoration: none;
+width: 100px;
+display: block;
+font-size: 17px;
+padding: 15px;
+transition: 0.4s;
+ }
+
+.picture-of-me {
+float: right;
+ }
+
+.introduction {
+display: inlinee-block;
+margin-top: 180px;
+}
+
+.column-1 {
+float: left;
+}
+.column-2 {
+float:right;
+}
+
+
+}
+
+
+
+
+@media (min-width: 1024px){
+
+body {
+  width 80%;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+nav {
+  float:right;
+  line-height: 100px;
+
+
+}
+  .main-nav {
+float: right;
+  }
+
+  .main-nav li {
+display: inline-block;
+margin-left: 15px;
+padding: 10px;
+
+  }
+
+  .picture-of-me {
+width: 30%
+
+  }
+
+  .left-col,
+  .right-col {
+    width: 33%;
+float:left;
+  }
+
+  .mid-col {
+width: 34%;
+float:left;
+margin: 10px;
+
+  }
+
+.name {
+  float:left;
+}
+
+.picture-of-me {
+float:right;
+}
+
+.introduction {
+margin-right: 100px;
+}
+
+.main-nav {
+float:right;
+
+}
+}
+
+/* Clearfix  */
+.clearfix::after {
+content:"";
+display: table;
+clear: both;
+}
+}
