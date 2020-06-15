@@ -1,2 +1,2 @@
 # project-2
- my 2nd project, techdegree 
+ my 2nd techdegree project
