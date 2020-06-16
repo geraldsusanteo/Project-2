@@ -27,7 +27,6 @@ margin: 10px 0px 30px 50px;
 }
 
 .picture-of-me {
-margin-left: 100px;
 width: 300px;
 }
 
@@ -135,16 +134,19 @@ float: right;
 
 .introduction {
   text-align: left;
-display: inline-block;
-padding-right: 100px;
-margin-right: 100px;
+float: left;
+width: 67%;
+margin: 0;
 }
 
-.column-1 {
+.left {
+  width: 50%;
 float: left;
 }
-.column-2 {
-float:right;
+
+.right {
+  width: 50%;
+float: right;
 }
 
 
@@ -172,11 +174,10 @@ margin-bottom: -30px;
 .main-nav {
 margin-top: 30px;
 margin-left: 30px;
-}
-
-.main-nav li{
 
 }
+
+
 /* nav {
   float:right;
   line-height: 100px;
@@ -214,21 +215,20 @@ margin-left: 15px;
 }
 
 .picture-of-me {
-float:right;
+    float:right;
 }
 
 .introduction {
-margin-right: 100px;
+    margin-right: 100px;
 }
 
 .main-nav {
-float:right;
-
+    float:right;
 }
 }
 
 /* Clearfix  */
-.clearfix::after {
+.main, .container::after {
 content:"";
 display: table;
 clear: both;
