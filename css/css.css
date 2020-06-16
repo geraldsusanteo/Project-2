@@ -47,6 +47,11 @@ margin-top: 20px;
 h3 {
 margin: 35px;
 }
+
+body {
+  width: 90%;
+margin: 0 auto;
+}
 /* Footer */
 .contacts {
 background-color: #F6F7F7;
@@ -71,6 +76,8 @@ text-align: center;
 margin: 10px;
 background-color: #fff;
 }
+
+
 
 .main-nav a {
 text-align: center;
@@ -98,6 +105,7 @@ font-size: 15px;
 
 
 
+
 /* Media Queries */
 @media (min-width: 768px) {
 
@@ -122,11 +130,14 @@ transition: 0.4s;
 
 .picture-of-me {
 float: right;
+
  }
 
 .introduction {
-display: inlinee-block;
-margin-top: 180px;
+  text-align: left;
+display: inline-block;
+padding-right: 100px;
+margin-right: 100px;
 }
 
 .column-1 {
@@ -149,7 +160,24 @@ body {
   max-width: 1150px;
   margin: 0 auto;
 }
+
+.name {
+margin-top: 50px;
+}
+
 nav {
+margin-bottom: -30px;
+}
+
+.main-nav {
+margin-top: 30px;
+margin-left: 30px;
+}
+
+.main-nav li{
+
+}
+/* nav {
   float:right;
   line-height: 100px;
 
@@ -162,27 +190,24 @@ float: right;
   .main-nav li {
 display: inline-block;
 margin-left: 15px;
-padding: 10px;
+  padding: 10px;
 
-  }
+} */
 
   .picture-of-me {
-width: 30%
-
-  }
+    width: 30%
+}
 
   .left-col,
   .right-col {
     width: 33%;
-float:left;
+    float:left;
   }
 
   .mid-col {
-width: 34%;
-float:left;
-margin: 10px;
-
-  }
+  width: 34%;
+  float:left;
+}
 
 .name {
   float:left;
