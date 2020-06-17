@@ -1,7 +1,7 @@
 
 /* Base */
 p {
-font-size: 18px;
+font-size: 17px;
 font-family: Arial;
 text-align: center;
 margin-left: 60px;
@@ -9,7 +9,7 @@ margin-right: 60px;
 }
 
 .introduction {
-
+font-size: 17px;
 margin-left: 65px;
 margin-right: 65px;
 text-align: center;
@@ -28,6 +28,7 @@ margin: 10px 0px 30px 50px;
 
 .picture-of-me {
 width: 300px;
+margin-left: 70px;
 }
 
 .portfolio,
@@ -106,75 +107,53 @@ font-size: 15px;
 
 
 /* Media Queries */
-@media (min-width: 50px) {
-.picture-of-me {
-  margin-left: 90px;
-  width: 60%;
-}
-
-.introduction {
-  font-size: 17px;
-}
+@media (min-width: 768px) and (max-width:1023px){
 
 .main-nav {
-margin-right: 25px;
-}
-
-.name {
-margin-right: 30px;
-}
-
-}
-
-
-@media (min-width: 768px) {
-
-.main-nav {
-float: right;
-margin-right: 140px;
+  float: right;
+  margin-right: 140px;
 }
 
 .main-nav li {
-display: inline-block;
-margin-left: 15px;
+  display: inline-block;
+  margin-left: 15px;
 }
 
- .main-nav a {
-text-decoration: none;
-width: 100px;
-display: block;
-font-size: 17px;
-padding: 15px;
-transition: 0.4s;
+.main-nav a {
+  text-decoration: none;
+  width: 100px;
+  display: block;
+  font-size: 17px;
+  padding: 15px;
+  transition: 0.4s;
  }
 
 .picture-of-me {
-float: right;
-
+  float: right;
+  margin-left: -90px;
  }
 
 .introduction {
-text-align: left;
-float: left;
-width: 67%;
-margin: 0;
+  text-align: left;
+  float: left;
+  width: 67%;
+  margin: 0;
 }
 
 .left {
   width: 50%;
-float: left;
+  float: left;
 }
 
 .right {
   width: 50%;
-float: right;
+  float: right;
 }
 .picture-of-me {
   width: 30%
 }
+
 }
-
-
 
 
 @media (min-width: 1024px){
@@ -186,70 +165,68 @@ body {
 }
 
 .name {
+  float:left;
   margin-top: 50px;
 }
 
 nav {
   margin-bottom: -30px;
+  margin-left: 30px;
 }
 
 .main-nav {
+  float: right;
   margin-top: 30px;
-  margin-left: 30px;
+  margin-right: 50px;
 
 }
 
-
-/* nav {
-  float:right;
-  line-height: 100px;
-
-
-}
-  .main-nav {
-float: right;
-  }
-
-  .main-nav li {
-display: inline-block;
-margin-left: 15px;
-  padding: 10px;
-
-} */
-
-  .picture-of-me {
-    width: 30%;
-}
-
-  .left-col,
-  .right-col {
-    width: 33%;
-    float:left;
-  }
-
-  .mid-col {
-  width: 34%;
-  float:left;
-}
-
-.name {
-  float:left;
+.main-nav li{
+  background-color: #F6F7F7;
+  display: inline-block;
+  font-size: 14px;
 }
 
 .picture-of-me {
-    float:right;
+  float:right;
+  width: 30%;
+  margin-right: 70px;
+}
+
+.left-col,
+.right-col {
+  width: 33%;
+  float:left;
+  }
+
+.mid-col {
+  width: 34%;
+  float:left;
 }
 
 .introduction {
   text-align: left;
   float: left;
-  width: 67%;
+  width: 40%;
   margin: 0;
+  margin-left: 50px;
+  margin-top: 15px;
+  letter-spacing: 1px;
 }
 
-.main-nav {
-    float:right;
+
+
+p {
+  width: 80%;
+margin-left: 40px;
+margin-right: 0;
+margin-top: -20px;
+padding-left: 0px;
+padding-right: 0px;
 }
+
+
+
 }
 
 /* Clearfix  */
