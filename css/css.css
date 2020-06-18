@@ -1,8 +1,10 @@
 
 /* Base */
+body {
+  font-family: 'Raleway', sans-serif;
+}
 p {
 font-size: 17px;
-font-family: Arial;
 text-align: center;
 margin-left: 60px;
 margin-right: 60px;
@@ -56,7 +58,7 @@ margin: 0 auto;
 .bottom-part {
 background-color: #F6F7F7;
 margin-left: 15px;
-width: 100px 10px 100px 10px;
+
 }
 
 .contact-title {
@@ -152,16 +154,11 @@ font-size: 13px;
   width: 30%
 }
 
-.top {
-display:none;
-}
-
-
-
 /* Bottom content */
 
-
-
+.name-footer {
+  display: inline-block;
+}
 .contact-title {
   text-align: center;
 }
@@ -331,7 +328,7 @@ hr {
 }
 
 /* Clearfix  */
-.main, .container::after {
+.main, .container, .bottom-part::after {
 content:"";
 display: table;
 clear: both;
