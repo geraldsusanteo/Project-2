@@ -53,7 +53,7 @@ body {
 margin: 0 auto;
 }
 /* Footer */
-.contacts {
+.bottom-part {
 background-color: #F6F7F7;
 margin-left: 15px;
 width: 100px 10px 100px 10px;
@@ -63,7 +63,6 @@ width: 100px 10px 100px 10px;
 text-align: center;
 padding-top: 60px;
 }
-
 
 /* Navigation */
 .main-nav {
@@ -101,6 +100,15 @@ margin-right: 70px;
 .name-footer {
 display:inline;
 font-size: 15px;
+}
+
+.bottom-nav {
+display: none;
+}
+
+.top {
+display: block;
+
 }
 
 
@@ -151,6 +159,59 @@ font-size: 15px;
 }
 .picture-of-me {
   width: 30%
+}
+
+.top {
+display:none;
+}
+
+.bottom-nav {
+display: inline-block;
+}
+
+/* Bottom content */
+
+.contact-title {
+  text-align: center;
+}
+
+
+.top {
+  display:none;
+}
+
+.bottom-nav {
+  display: inline-block;
+  float: right;
+  list-style-type: none;
+  text-align: center;
+}
+
+.bottom-nav li {
+  text-decoration: none;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 13px;
+}
+
+.footer {
+  background-color: #F6F7F7;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: #dddddd;
+}
+.contacts {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.contact-title {
+    margin-right: 20px;
+    margin-bottom: 70px;
 }
 
 }
@@ -218,16 +279,59 @@ nav {
 
 p {
   width: 80%;
-margin-left: 40px;
-margin-right: 0;
-margin-top: -20px;
-padding-left: 0px;
-padding-right: 0px;
+  margin-left: 40px;
+  margin-right: 0;
+  margin-top: -20px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* Bottom content */
+
+.contact-title {
+  text-align: center;
 }
 
+
 .top {
-display:none;
+  display:none;
 }
+
+.bottom-nav {
+  display: inline-block;
+  float:right;
+  list-style-type: none;
+  text-align: center;
+}
+
+.bottom-nav li {
+  text-decoration: none;
+  float:left;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 13px;
+}
+
+.footer {
+  background-color: #F6F7F7;
+  display: inline-block;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: #dddddd;
+}
+.contacts {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.contact-title {
+    margin-right: 20px;
+    margin-bottom: 70px;
+}
+
+
 
 }
 
