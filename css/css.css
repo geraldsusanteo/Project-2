@@ -7,8 +7,8 @@ body {
 p {
   font-size: 17px;
   text-align: center;
-  margin-left: 60px;
-  margin-right: 60px;
+margin-left: auto;
+margin-right: auto;
 }
 
 .introduction {
@@ -34,10 +34,11 @@ header {
   margin: 10px 0px 30px 50px;
 }
 
-.picture-of-me {
- width: 300px;
+.picture-of-me,
+.Portfolio-images {
+ width: 100%;
  position: relative;
- margin-left: 70px;
+
 }
 
 .portfolio,
@@ -62,10 +63,6 @@ body {
   margin: 0 auto;
 }
 /* Footer */
-
-.bottom-part{
-margin-left: 15px;
-}
 
 .contact-title {
   text-align: center;
@@ -122,6 +119,11 @@ a {
   overflow: hidden;
 }
 
+#contacts-section {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
 
 
 
@@ -155,7 +157,7 @@ a {
   margin: 0;
   margin-left: 20px;
   margin-right: 20px;
-  
+
 }
 
 .left {
@@ -170,7 +172,7 @@ a {
 .picture-of-me {
   width: 30%;
   position: relative;
-  margin-left: 30px;
+  float: right;
 }
 
 /* Bottom content */
