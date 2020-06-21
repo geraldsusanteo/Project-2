@@ -35,7 +35,9 @@ header {
 }
 
 .picture-of-me {
-  width: 100%;
+ width: 300px;
+ position: relative;
+ margin-left: 70px;
 }
 
 .portfolio,
@@ -153,6 +155,7 @@ a {
   margin: 0;
   margin-left: 20px;
   margin-right: 20px;
+  
 }
 
 .left {
@@ -165,7 +168,9 @@ a {
   float: right;
 }
 .picture-of-me {
-  width: 30%
+  width: 30%;
+  position: relative;
+  margin-left: 30px;
 }
 
 /* Bottom content */
@@ -242,7 +247,6 @@ nav {
   float: right;
   margin-top: 30px;
   margin-right: 50px;
-
 }
 
 .main-nav li{
@@ -255,6 +259,7 @@ nav {
   float: right;
   width: 30%;
   margin-right: 70px;
+  position: relative;
 }
 
 .left-col,
