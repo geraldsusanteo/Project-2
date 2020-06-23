@@ -4,6 +4,10 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+strong {
+  color: orange;
+}
+
 p {
   font-size: 17px;
   text-align: center;
@@ -16,6 +20,10 @@ margin-right: auto;
   margin-left: 65px;
   margin-right: 65px;
   text-align: center;
+}
+
+h4 {
+    text-align: center;
 }
 
 hr {
@@ -62,6 +70,7 @@ body {
   width: 90%;
   margin: 0 auto;
 }
+
 /* Footer */
 
 .contact-title {
@@ -79,7 +88,7 @@ body {
 
 .main-nav li{
   margin: 10px;
-  background-color: #fff;
+  background-color: #FFE4B5;
 }
 
 .main-nav a {
@@ -252,7 +261,7 @@ nav {
 }
 
 .main-nav li{
-  background-color: #F6F7F7;
+  background-color: #FFE4B5	;
   display: inline-block;
   font-size: 14px;
 }
@@ -297,6 +306,16 @@ p {
   padding-left: 0px;
   padding-right: 0px;
 }
+
+.skills {
+  margin-left: 100px;
+}
+
+.skills-title {
+  margin-right: 100px;
+}
+
+
 /* Bottom content */
 
 .name-footer {
