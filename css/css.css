@@ -238,6 +238,10 @@ hr {
 
 @media (min-width: 1024px){
 
+.portfolio {
+  grid-column-gap: 10px;
+}
+
 body {
   width: 80%;
   max-width: 1150px;
