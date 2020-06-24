@@ -238,16 +238,17 @@ hr {
 
 
 @media (min-width: 1024px){
-
-.main {
-  margin-right: 30px;
+.Portfolio-images-2 {
+  max-width: 100%;
 }
 
-.portfolio {
-  margin-right: 30px;
+.Portfolio-images {
+  max-width: 100%;
 }
+
 body {
-  width: 80%;
+
+  width: 85%;
   max-width: 1150px;
   margin: 0 auto;
 }
@@ -283,15 +284,20 @@ nav {
 
 .left-col,
 .right-col {
-  width: 33%;
+  width: 30%;
   float:left;
 
   }
 
 .mid-col {
-  width: 34%;
+  width: 30%;
   float:left;
 
+}
+
+.left-col,
+.mid-col {
+  margin-right: 30px;
 }
 
 .introduction {
@@ -318,11 +324,17 @@ p {
 }
 
 .skills {
-  margin-left: 100px;
+margin-left: 100px;
 }
 
 .skills-title {
-  margin-right: 100px;
+  margin-top: 30px;
+  margin-right: 150px;
+}
+
+.portfolio-title {
+  text-align: center;
+  margin-right: 50px;
 }
 
 
