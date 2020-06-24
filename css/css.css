@@ -24,6 +24,7 @@ margin-right: auto;
 
 h4 {
     text-align: center;
+    margin-top: 0;
 }
 
 hr {
@@ -238,10 +239,13 @@ hr {
 
 @media (min-width: 1024px){
 
-.portfolio {
-  grid-column-gap: 10px;
+.main {
+  margin-right: 30px;
 }
 
+.portfolio {
+  margin-right: 30px;
+}
 body {
   width: 80%;
   max-width: 1150px;
@@ -281,11 +285,13 @@ nav {
 .right-col {
   width: 33%;
   float:left;
+
   }
 
 .mid-col {
   width: 34%;
   float:left;
+
 }
 
 .introduction {
