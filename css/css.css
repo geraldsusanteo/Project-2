@@ -383,13 +383,13 @@ font-size: 13px;
 }
 
 .contact-title {
-    margin-right: 100px;
+    text-align: center;
     margin-bottom: 70px;
 }
 
 .contact-text {
-  margin-left: 100px;
-  width: 62%;
+  text-align: center;
+  width: 90%;
 }
 
 hr {
