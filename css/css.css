@@ -207,6 +207,7 @@ a {
   list-style-type: none;
   text-align: center;
   margin-right: 30px;
+  margin-top: 0;
 }
 
 .bottom-nav li {
@@ -227,7 +228,7 @@ a {
 }
 
 .contact-title {
-    margin-right: 20px;
+
     margin-bottom: 70px;
 }
 
@@ -253,10 +254,13 @@ p.contact-info {
 }
 
 body {
-
-  width: 85%;
   max-width: 1150px;
   margin: 0 auto;
+}
+
+.whole {
+  margin: auto;
+  max-width: 100%;
 }
 
 .name {
@@ -368,6 +372,7 @@ float: right;
 list-style-type: none;
 text-align: center;
 margin-right: 35px;
+margin-top: 0;
 
 }
 
@@ -395,7 +400,6 @@ font-size: 13px;
 
 .contact-text {
   text-align: center;
-  width: 90%;
   margin: auto;
 }
 
@@ -403,6 +407,9 @@ hr {
   width: 90%;
 }
 
+.bottom-part {
+  margin: auto;
+}
 }
 
 /* Clearfix  */
