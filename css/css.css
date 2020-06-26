@@ -4,6 +4,11 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+.whole {
+  margin: auto;
+  width: 90%;
+}
+
 strong {
   color: orange;
 }
@@ -59,7 +64,7 @@ header {
 
 .Portfolio-images,
 .Portfolio-images-2 {
-  width: 300px;
+  width: 100%;
   margin-top: 20px;
 }
 
@@ -68,7 +73,6 @@ h3 {
 }
 
 body {
-  width: 90%;
   margin: 0 auto;
 }
 
@@ -144,8 +148,12 @@ a {
 /* Media Queries */
 @media (min-width: 768px) and (max-width: 1023px){
 
+  .Portfolio-images,
+  .Portfolio-images-2 {
+    width: 300px;
+  }
 
-
+/* Main navigation */
 .main-nav li {
   display: inline-block;
   margin-left: 15px;
@@ -169,7 +177,7 @@ a {
   margin-right: 20px;
 
 }
-
+/* Body */
 .left {
   width: 50%;
   float: left;
@@ -215,6 +223,7 @@ a {
   padding-left: 10px;
   padding-right: 10px;
   font-size: 13px;
+  background-color: #FFE4B5;
 }
 
 .footer {
@@ -252,14 +261,8 @@ p.contact-info {
   margin: auto;
 }
 
-body {
-  max-width: 1150px;
-  margin: 0 auto;
-}
-
 .whole {
-  margin: auto;
-  max-width: 100%;
+  max-width: 1150px;
 }
 
 .name {
@@ -381,6 +384,7 @@ display: inline-block;
 padding-left: 10px;
 padding-right: 10px;
 font-size: 13px;
+background-color: #FFE4B5;
 }
 
 .footer {
